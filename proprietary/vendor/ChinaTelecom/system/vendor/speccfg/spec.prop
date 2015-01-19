@@ -1,0 +1,64 @@
+#
+# ADDITIONAL_FEATURE_PROPERTIES FOR ChinaTelecom SPEC
+#
+
+# Set the current spec as ChinaTelecom
+persist.env.spec=ChinaTelecom
+
+# Const
+persist.env.c.browser.resource=ct
+persist.env.c.sb.style=2
+persist.env.c.email.carrier=ct
+persist.env.c.email.defsmtp=25
+persist.env.c.mms.limitcount=20
+ro.telephony.default_network=7,1
+
+# For Email
+persist.env.email.forwardalert=true
+persist.env.email.showmail=true
+persist.env.email.notifyicon=true
+persist.env.email.specprovider=true
+persist.env.email.sendprogress=true
+persist.env.email.deletealert=true
+
+# For System
+persist.env.sys.bootanim=true
+persist.env.data.disable.sub2=false
+
+# For Phone
+persist.env.phone.nosim=true
+persist.env.phone.carriername=true
+persist.env.phone.jointforward=true
+persist.env.phone.activetime=true
+persist.env.phone.ecclist=true
+persist.env.phone.global=true
+persist.env.phone.network=7
+persist.env.phone.checkica=true
+persist.env.phone.pnlversion=0
+
+# For Launcher
+persist.env.launcher.mail189=true
+persist.env.launcher.shortcut=true
+persist.env.launcher.page=true
+
+# For Browser
+persist.env.browser.wap2estore=true
+persist.env.browser.drmupload=true
+
+# For Settings
+persist.env.settings.cfgmmsapn=true
+persist.env.settings.showppp=true
+persist.env.settings.showMEID=true
+persist.env.settings.showESN=true
+persist.env.settings.noengmode=true
+
+# For Statusbar
+persist.env.sb.apnswitch=true
+persist.env.sb.dataswitch=true
+
+# For MMS
+persist.env.mms.7bitascii=true
+persist.env.mms.smspriority=true
+persist.env.mms.smsringtone=true
+persist.env.mms.senttime=true
+persist.env.mms.checksymbol=true

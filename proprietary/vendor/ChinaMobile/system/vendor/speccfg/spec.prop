@@ -1,0 +1,73 @@
+#
+# ADDITIONAL_FEATURE_PROPERTIES FOR ChinaTelecom SPEC
+#
+
+# Set the current spec as ChinaMobile
+persist.env.spec=ChinaMobile
+
+# Const
+persist.env.c.browser.resource=cmcc
+persist.env.c.email.carrier=cmcc
+persist.env.c.email.defsmtp=25
+persist.env.c.mms.limitcount=10
+persist.env.c.mms.maxslidenum=20
+persist.env.c.mms.maxcount=2000
+persist.env.c.mms.maxtextsize=3000
+ro.telephony.default_network=16,1
+persist.env.c.phone.networkmode=2
+persist.env.c.ntp_server=pool.ntp.org
+
+# For Phone
+persist.env.phone.noduration=true
+persist.env.phone.callbarring=true
+persist.env.phone.location=true
+persist.env.phone.backtoapp=true
+persist.env.phone.autoprovision=true
+
+# For MMS
+persist.env.mms.discardlongsms=true
+persist.env.mms.retryatonce=true
+persist.env.mms.savelocation=true
+persist.env.mms.smsringtone=true
+persist.env.mms.mailbox=true
+persist.env.mms.classifysearch=true
+persist.env.mms.forwardconv=true
+persist.env.mms.enterkey=true
+
+# For Settings
+persist.env.settings.netinfo=true
+persist.env.settings.wifiprior=true
+persist.env.settings.autocon=true
+persist.env.settings.cell2wifi=true
+persist.env.settings.ssid=true
+persist.env.settings.wifi2cell=true
+persist.env.settings.apprompt=true
+persist.env.settings.agps=true
+persist.env.settings.searchapp=true
+persist.env.settings.wifirecv=true
+persist.env.settings.hidesupl=true
+
+# For Statusbar
+persist.env.sb.dataswitch=true
+persist.env.settings.ime=true
+persist.env.c.sb.style=3
+
+# For Video
+persist.env.video.loop=true
+persist.env.video.playlist=true
+persist.env.video.stereo=true
+persist.env.video.streaming=true
+persist.env.video.speaker=true
+
+# For Browser
+persist.env.browser.netswitch=true
+
+# For System
+persist.env.sys.wifi.autocon=true
+
+# For DeskClock
+persist.env.deskclock.poalert=true
+persist.env.deskclock.incallsnz=true
+
+# For SoundRecorder
+persist.env.soundrecorder.pause=true

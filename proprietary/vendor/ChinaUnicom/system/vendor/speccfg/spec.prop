@@ -1,0 +1,37 @@
+#
+# ADDITIONAL_FEATURE_PROPERTIES FOR ChinaUnicom SPEC
+#
+
+# Set the current spec as ChinaUnicom
+persist.env.spec=ChinaUnicom
+
+# Set the special value for CSVT on ChinaUnicom
+persist.radio.calls.on.ims=1
+persist.radio.jbims=1
+persist.radio.csvt.enabled=true
+
+# Const
+persist.env.c.browser.resource=cu
+persist.env.c.sb.style=1
+persist.env.c.email.carrier=cu
+ro.telephony.default_network=0,1
+
+# For mms
+persist.env.mms.wappushdialog=true
+persist.env.mms.setupmmsdata=true
+
+# For System
+persist.env.sys.bootanim=true
+
+# For Phone
+persist.env.phone.diffsim=true
+persist.env.phone.autoprovision=true
+
+# For Launcher
+persist.env.launcher.sort=true
+
+# For Settings
+persist.env.settings.hidesupl=true
+
+# For Statusbar
+persist.env.sb.dataswitch=true
